@@ -277,6 +277,9 @@ p {
     margin-right: 2rem;
   }
 }
+.footer__social-media .sr-only {
+  display: none;
+}
 .footer .copyright {
   font-size: 1rem;
   color: #ebfbff;
