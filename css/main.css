@@ -110,6 +110,11 @@ p {
   font-size: 2.2rem;
   margin-bottom: 2rem;
 }
+@media only screen and (min-width: 800px) {
+  .header__title {
+    font-size: 2.6rem;
+  }
+}
 .header__text {
   font-size: 1.6rem;
   margin-bottom: 4rem;
@@ -140,14 +145,27 @@ p {
 .sec-content:last-of-type {
   margin-bottom: 8rem;
 }
+.sec-content:nth-child(even) .sec-content__img {
+  order: -1;
+}
 @media only screen and (min-width: 600px) {
   .sec-content__info {
     margin-right: 8rem;
   }
 }
+@media only screen and (min-width: 600px) {
+  .sec-content:nth-child(even) .sec-content__info {
+    margin-left: 8rem;
+  }
+}
 .sec-content__title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .sec-content__title {
+    font-size: 2.2rem;
+  }
 }
 .sec-content__text {
   font-size: 1.4rem;
