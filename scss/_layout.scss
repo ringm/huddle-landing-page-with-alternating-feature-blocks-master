@@ -1,5 +1,5 @@
 .container {
-  width: min(90%, 1000px);
+  width: min(90%, 1200px);
   margin: 0 auto;
 }
 
@@ -108,6 +108,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
+    padding: 3rem 6rem;
   }
 
   &+& {
@@ -126,7 +127,7 @@
     order: -1;
   }
 
-  &__info {
+  &:nth-child(odd) &__info {
     @include mq-med {
       margin-right: 8rem;
     }
